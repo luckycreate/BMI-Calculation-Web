@@ -1,0 +1,15 @@
+ideal 理想
+Toolight 過輕
+overWeight 過重
+MildObesity 輕度肥胖
+ModerateObesity 中度肥胖
+SevereObesity 重度肥胖 
+
+
+過輕 <=11.94
+理想 >11.94 && <=20.90
+過重 >20.90 && <=26.87
+輕度肥胖 >26.87 && <=29.86
+中度肥胖 >29.86 && <=32.85
+重度肥胖 >32.85 
+
