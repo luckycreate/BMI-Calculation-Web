@@ -17,14 +17,9 @@ body{
     background-color: rgb(216, 216, 216);
 }
 
-.box{
-    display: table;
-}
 
 .box2{
-    height: 250px;
     text-align: center;
-    display: table-cell;
     vertical-align:middle;
     position:relative;
 }
@@ -32,6 +27,25 @@ body{
 .box3{
     text-align: center;
 }
+
+.boxHight{
+    height: 250px;
+}
+
+@media(max-width:768px){
+    .boxHight{
+        height: 350px;
+    }
+}
+
+@media(max-width:600px){
+    .boxHight{
+        height: 550px;
+    }
+}
+
+
+
 
 .text-one{
     color: #FFD366;
