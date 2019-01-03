@@ -122,6 +122,12 @@ body{
     border: 4px solid rgb(207, 106, 145);
 }
 
+@media(max-width:440px){
+    .delBtn{
+        margin-bottom: 15px;
+    }
+}
+
 /*BMI-理想*/
 .ideal{
     border-color:#8CD644;
